@@ -185,7 +185,7 @@ function renderRejected() {
         let div = document.createElement('div')
         div.classList = 'flex justify-between bg-white p-6 rounded-lg'
         div.innerHTML = `
-        <div class="space-y-6 w-[90%] w-[80%]">
+        <div class="space-y-6 w-[80%] w-[80%]">
                     <div class="text-[#64748B]">
                         <h2 class="job-title font-semibold text-[18px] text-black">${rejected.jobTitle}</h2>
                         <p class="job-name">${rejected.jobName}</p>
@@ -221,7 +221,7 @@ function renderInterview() {
         let div = document.createElement('div')
         div.classList = 'flex justify-between bg-white p-6 rounded-lg'
         div.innerHTML = `
-        <div class="space-y-6 w-[90%] w-[80%]">
+        <div class="space-y-6 w-[80%] w-[80%]">
                     <div class="text-[#64748B]">
                         <h2 class="job-title font-semibold text-[18px] text-black">${interview.jobTitle}</h2>
                         <p class="job-name">${interview.jobName}</p>
