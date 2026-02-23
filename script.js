@@ -185,7 +185,7 @@ function renderRejected() {
         let div = document.createElement('div')
         div.classList = 'flex justify-between bg-white p-6 rounded-lg'
         div.innerHTML = `
-        <div class="space-y-6 w-[80%] w-[80%]">
+        <div class="space-y-6 w-[80%]">
                     <div class="text-[#64748B]">
                         <h2 class="job-title font-semibold text-[18px] text-black">${rejected.jobTitle}</h2>
                         <p class="job-name">${rejected.jobName}</p>
@@ -197,7 +197,7 @@ function renderRejected() {
                         <button class="status bg-[#EEF4FF] px-3 py-2 text-sm font-medium rounded-sm">${rejected.status}</button>
                         <p class="job-description text-sm mt-2">${rejected.jobDescription}</p>
                     </div>
-                    <div class="flex gap-2">
+                    <div class="flex flex-col md:flex-row gap-2">
                         <button class="interview-btn border-2 border-[#10B981] font-semibold  px-3 py-2 text-sm rounded-sm">Interview</button>
                         <button class="rejected-btn border-2 border-[#EF4444] font-semibold px-3 py-2 text-sm rounded-sm">Rejected</button>
                     </div>
@@ -221,7 +221,7 @@ function renderInterview() {
         let div = document.createElement('div')
         div.classList = 'flex justify-between bg-white p-6 rounded-lg'
         div.innerHTML = `
-        <div class="space-y-6 w-[80%] w-[80%]">
+        <div class="space-y-6 w-[80%]">
                     <div class="text-[#64748B]">
                         <h2 class="job-title font-semibold text-[18px] text-black">${interview.jobTitle}</h2>
                         <p class="job-name">${interview.jobName}</p>
@@ -233,7 +233,7 @@ function renderInterview() {
                         <button class="status bg-[#EEF4FF] px-3 py-2 text-sm font-medium rounded-sm">${interview.status}</button>
                         <p class="job-description text-sm mt-2">${interview.jobDescription}</p>
                     </div>
-                    <div class="flex gap-2">
+                    <div class="flex flex-col md:flex-row gap-2">
                         <button class="interview-btn border-2 border-[#10B981] font-semibold  px-3 py-2 text-sm rounded-sm">Interview</button>
                         <button class="rejected-btn border-2 border-[#EF4444] font-semibold px-3 py-2 text-sm rounded-sm">Rejected</button>
                     </div>
