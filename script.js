@@ -19,7 +19,6 @@ const filterSection = document.getElementById('filtered-section')
 const mainContainer = document.querySelector('main')
 
 const deleteBtn = document.querySelectorAll('.delete-btn')
-// console.log(deleteBtn)
 
 
 function calculateCount() {
