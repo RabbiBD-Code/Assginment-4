@@ -45,7 +45,7 @@ function toggleStyle(id) {
 
     const selected = document.getElementById(id);
     currentStatus = id;
-    // console.log(currentStatus)
+    // console.log(currentStatus.id)
 
     selected.classList.remove('text-[#64748B]', 'bg-white');
     selected.classList.add('bg-[#131aea]', 'font-bold', 'text-white')
