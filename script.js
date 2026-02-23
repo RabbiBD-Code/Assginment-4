@@ -95,7 +95,6 @@ mainContainer.addEventListener('click', function (event) {
                 noJobSectin.classList.remove('hidden')
             }
         }
-        // calculateCount()
 
         if (currentStatus === 'rejected-filter-btn') {
             rejectedList = rejectedList.filter(item => item.jobTitle !== jobTitle)
@@ -141,7 +140,6 @@ mainContainer.addEventListener('click', function (event) {
         }
 
         calculateCount()
-        // renderRejected()
     }
 
     else if (event.target.classList.contains('interview-btn')) {
@@ -176,7 +174,6 @@ mainContainer.addEventListener('click', function (event) {
             }
         }
         calculateCount()
-        // renderInterview()
     }
 })
 
