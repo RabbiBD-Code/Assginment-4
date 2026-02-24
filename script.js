@@ -181,6 +181,7 @@ function renderRejected() {
 
     for (let rejected of rejectedList) {
         // console.log(rejected)
+        // console.log(rejected)
         let div = document.createElement('div')
         div.classList = 'flex justify-between bg-white p-6 rounded-lg'
         div.innerHTML = `
